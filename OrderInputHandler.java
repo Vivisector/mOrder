@@ -1,7 +1,7 @@
 package ru.dz;
 import java.util.Scanner;
 public class OrderInputHandler {
-
+// бывший метод "inputFromConsole"
     public Order getOrderFromConsole() {
         String clientName = prompt("Client name: ");
         String product = prompt("Product: ");

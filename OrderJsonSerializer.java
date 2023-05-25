@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class OrderJsonSerializer {
-
+// бывший метод "saveToJson"
     public void saveOrderToJson(Order order) {
         String fileName = "order.json";
         try (FileWriter writer = new FileWriter(fileName, false)) {
